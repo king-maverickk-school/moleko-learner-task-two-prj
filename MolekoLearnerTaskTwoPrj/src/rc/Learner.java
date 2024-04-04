@@ -35,4 +35,20 @@ public class Learner {
     public double getExamMark(){
         return this.examMark;
     }
+    // Mutator methods
+    public void setFName(String fname) {
+        this.fullName = fname;
+    }
+    public void setSubject(String subj) {
+        this.subject = subj;
+    }
+    public void setAssignmentMark(double aMark) {
+        this.assignMark = aMark;
+    }
+    public void setTestMark(double tMark){
+        this.testMark = tMark;
+    }
+    public void setExamMark(double eMark) {
+        this.examMark = eMark;
+    }
 }
