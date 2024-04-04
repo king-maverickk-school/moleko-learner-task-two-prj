@@ -19,4 +19,20 @@ public class Learner {
         this.examMark = 0.0;
     }
     
+    // Accessor methods
+    public String getFName(){
+        return this.fullName;
+    }
+    public String getSubject(){
+        return this.subject;
+    }
+    public double getAssignMark(){
+        return this.assignMark;
+    }
+    public double getTestMark(){
+        return this.testMark;
+    }
+    public double getExamMark(){
+        return this.examMark;
+    }
 }
