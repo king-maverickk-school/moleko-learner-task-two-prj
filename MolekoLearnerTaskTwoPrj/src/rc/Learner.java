@@ -51,4 +51,10 @@ public class Learner {
     public void setExamMark(double eMark) {
         this.examMark = eMark;
     }
+    // Calculates average mark for all 3 marks
+    public double calcFinalMark(){
+        double result;
+        result = (this.assignMark + this.testMark + this.examMark) / 3;
+        return result;
+    }
 }
